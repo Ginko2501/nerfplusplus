@@ -161,8 +161,8 @@ def main(img_dir, out_dir, run_mvs=False):
 if __name__ == '__main__':
     ### note: this script is intended for the case where all images are taken by the same camera, i.e., intrinisics are shared.
     
-    img_dir = ''
-    out_dir = ''
+    img_dir = '/home/zw336/IR/nerfplusplus/data/cornell_bear'
+    out_dir = '/home/zw336/IR/nerfplusplus/data/cornell_bear2'
     run_mvs = False
     main(img_dir, out_dir, run_mvs=run_mvs)
 
